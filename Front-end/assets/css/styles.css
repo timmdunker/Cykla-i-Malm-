@@ -1,0 +1,289 @@
+#welcomeDiv {
+    align-content: center;
+    margin: 18px;
+}
+#underline {
+    text-decoration: underline;
+    -moz-text-decoration-color: #C8102E; /* Code for Firefox */
+    text-decoration-color: #C8102E;
+}
+
+#gradient {
+    background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#C8102E, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#C8102E, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#C8102E, white); /* Standard syntax */
+}
+
+#imgSlider {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+
+#slider{
+	position:relative;
+}
+
+#redirect{
+/*    align-self: center;*/
+    width: 20%;
+    float:right;
+    margin-right: 3.5%;
+    margin-bottom: 3.5%;
+    background-color: #404040;
+    margin:0px;
+    box-shadow: 5px 5px #8c8c8c;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: "Myriamm";
+}
+#welcomeLogo{
+	position:absolute;
+	bottom: 10px; 
+	left: 10px;
+    width: 30%;
+    height: auto;
+	}
+
+body {
+	font-family: "Myriamm";
+}
+
+img{
+  border:5px;
+  height:30%;
+  width:100%;
+  margin-top:3.5%;
+  border-color:initial;
+}
+
+.bodystyle { 
+    padding: 0px;
+	background-color:white;
+}
+ .h2style{
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  padding: 0px;
+  font-family: "Myriamm";
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-family: "Myriamm";
+}
+h3 {
+    text-align: center;
+    font-family: "Myriamm";
+}
+
+p{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-family: "Myriamm";
+}
+
+/* Traffic rule page*/
+/*p-tag in trafficrules. Addapted to have picture next to the text */
+.left {
+    float:left;
+    width: 70%;
+    margin-bottom:5%; 
+    margin-left: 1%;
+	margin-right:1%;
+    text-align:left;
+}
+/*p-tag in traffic rules. */
+.change {
+    text-align:left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/*Panels with different colors */
+.green{
+   background-color: #A0E910;
+   box-shadow: 3px 3px grey;
+}
+/*Panels with different colors */
+.yellow {
+   background-color: #F4EA08;
+   box-shadow: 3px 3px grey;
+}
+/*Panels with different colors */
+.orange{
+   background-color: #FF9600;
+   box-shadow: 3px 3px grey;
+}
+/*Panels with different colors */
+#red {
+   background-color: #ff3333;
+   box-shadow: 3px 3px grey;
+}
+#section1, #section2, #section3, #section4 {
+	display: none;
+}
+#equipment, #roadsigns, #haveinmind, #otherrules {
+	width:100%;
+	padding:5%;
+	font-size: 30px;
+}
+
+#equipment{
+	background-color: #A0E910;
+}
+#roadsigns{
+	background-color: #F4EA08;
+}
+#haveinmind{
+	background-color: #FF9600;
+}
+#otherrules{
+	background-color: #ff3333;
+}
+
+/*Size of pictures, trafficRules page*/
+.size {
+    width: 20%;
+    height: auto;
+    margin: 2%; 
+}
+article {
+	padding-left:3%;
+	padding-right:3%;
+	height: auto;
+	width:100%;
+	float:left;
+	background-color:white;
+}
+
+
+/*height of iframe picture */
+img#ruttBild{
+  height:400px;
+}
+
+
+button.btn.btn-info.btn-lg{
+  margin-top:5%;
+  width:100%;
+}
+
+/*Maps*/
+iframe{
+  height:300px;
+  width:100%;
+}
+
+/*.panel-body{
+	padding:0px;
+}*/
+	
+.panel {
+    margin:0px;
+}
+#ruttContainer > iframe {
+    height: 260px;
+    width: 100%;
+}
+
+button.btn.btn-success{
+  background-color:#f2f2f2;
+}
+
+button.btn.btn-default{
+  background-color:#f2f2f2;
+  width:40%;
+}
+
+#showMenu {
+    box-shadow: 5px 5px #8c8c8c;
+    width:100%;
+    height: auto;
+    background-color: #404040;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: "Myriamm";
+}
+#menuContainer > h4 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Buttons for svstart.html and start.html, when you´re able to filter your search*/
+#button1, #button2 {
+    padding: 10px;
+    margin-left: 25px;
+    margin-right:0px;
+    width: 155px;
+    margin-bottom: 10px;
+}
+/*Buttons for trafikregler, traficRules, help, hjälp.html when you´re able to filter your search*/
+.buttons {
+    padding: 10px;
+    margin-left: 25px;
+    margin-right:0px;
+    width: 155px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.dropdown, .dropdown > button {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    
+}
+
+.btn-default.focus, .btn-default:focus{
+  background-color:#333;
+  
+}
+
+#nextButton{
+  background-color:#63CECA;
+}
+
+#container{
+	width:100%;
+	margin:0px;
+}
+
+#star, #start {
+	font-size: 25px;
+	margin:4%;
+	background-color:white;
+	border-radius: 70px;
+	border: 1px solid black;
+    width: 40%;
+}
+
+#star > p, #start > p {
+	font-size:17px;
+}
+#title{
+	margin-bottom:2%;
+	padding-top:0px;
+	text-align:center;
+	background-color: #F4EA08;
+    box-shadow: 3px 3px grey;
+    font-family: "Myriamm";
+}
+
+#length, #description{
+	padding-left:2%;
+    padding-right:3%;
+}
+
+#container > p {
+	text-align:left;
+}
